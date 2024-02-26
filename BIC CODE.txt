@@ -1,0 +1,6 @@
+Bank Notes
+
+RTGS	-> release_settlement_rtgs.beneficiary_bank
+IDS	-> txn_kp_deal_slip.opponent_code ATAU release_settlement_ids.code_nasabah
+TDP	-> txn_kp_deal_slip.opponent_code
+RAKNOS	-> raknos_kode_nostro(refer ke tabel nostro_bank)
